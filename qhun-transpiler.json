@@ -1,0 +1,15 @@
+{
+    "name": "MyAddon",
+    "version": "1.0.0",
+    "author": "Me",
+    "licence": "MIT",
+    "description": "My addon description",
+    "stripOutDir": "src",
+    "target": "wow",
+    "tsconfig": "./tsconfig.json",
+    "config": {
+        "staticReflection": 7,
+        "visibleName": "MyAddon",
+        "interface": 80000
+    }
+}
